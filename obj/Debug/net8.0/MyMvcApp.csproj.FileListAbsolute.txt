@@ -28,3 +28,34 @@ C:\Users\azureuser\MyMvcApp\obj\Debug\net8.0\refint\MyMvcApp.dll
 C:\Users\azureuser\MyMvcApp\obj\Debug\net8.0\MyMvcApp.pdb
 C:\Users\azureuser\MyMvcApp\obj\Debug\net8.0\MyMvcApp.genruntimeconfig.cache
 C:\Users\azureuser\MyMvcApp\obj\Debug\net8.0\ref\MyMvcApp.dll
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.AssemblyInfoInputs.cache
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.AssemblyInfo.cs
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.csproj.CoreCompileInputs.cache
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.MvcApplicationPartsAssemblyInfo.cache
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.RazorAssemblyInfo.cache
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.RazorAssemblyInfo.cs
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.sourcelink.json
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.dll
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\refint\MyMvcApp.dll
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.pdb
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\bin\Debug\net8.0\appsettings.Development.json
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\bin\Debug\net8.0\appsettings.json
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\bin\Debug\net8.0\MyMvcApp.staticwebassets.runtime.json
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\bin\Debug\net8.0\MyMvcApp.exe
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\bin\Debug\net8.0\MyMvcApp.deps.json
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\bin\Debug\net8.0\MyMvcApp.runtimeconfig.json
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\bin\Debug\net8.0\MyMvcApp.dll
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\bin\Debug\net8.0\MyMvcApp.pdb
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\staticwebassets.build.json
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\staticwebassets.development.json
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\staticwebassets\msbuild.MyMvcApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\staticwebassets\msbuild.build.MyMvcApp.props
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MyMvcApp.props
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MyMvcApp.props
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\staticwebassets.pack.json
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\scopedcss\bundle\MyMvcApp.styles.css
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\scopedcss\projectbundle\MyMvcApp.bundle.scp.css
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\MyMvcApp.genruntimeconfig.cache
+C:\azureuser\Github Copilot\MyMvcApp-Contact-Database-Application\obj\Debug\net8.0\ref\MyMvcApp.dll

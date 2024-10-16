@@ -1,0 +1,55 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "resources": [
+      {
+        "type": "Microsoft.Web/serverfarms",
+        "apiVersion": "2021-02-01",
+        "name": "[parameters('appServicePlanName')]",
+        "location": "[resourceGroup().location]",
+        "sku": {
+          "name": "F1",
+          "tier": "Free"
+        },
+        "properties": {
+          "reserved": true
+        }
+      },
+      {
+        "type": "Microsoft.Web/sites",
+        "apiVersion": "2021-02-01",
+        "name": "[parameters('webAppName')]",
+        "location": "[resourceGroup().location]",
+        "dependsOn": [
+          "[resourceId('Microsoft.Web/serverfarms', parameters('appServicePlanName'))]"
+        ],
+        "properties": {
+          "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('appServicePlanName'))]",
+          "siteConfig": {
+            "appSettings": [
+              {
+                "name": "WEBSITE_NODE_DEFAULT_VERSION",
+                "value": "10.14.1"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "parameters": {
+      "appServicePlanName": {
+        "type": "string",
+        "defaultValue": "myAppServicePlan",
+        "metadata": {
+          "description": "Name of the App Service Plan."
+        }
+      },
+      "webAppName": {
+        "type": "string",
+        "defaultValue": "MyMvcApp",
+        "metadata": {
+          "description": "Name of the Web App."
+        }
+      }
+    }
+  }
