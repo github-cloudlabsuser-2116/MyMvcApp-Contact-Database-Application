@@ -6,6 +6,11 @@
 
 <h2>Index</h2>
 
+<form asp-action="Search" method="get">
+    <input type="text" name="query" placeholder="Search users..." />
+    <button type="submit">Search</button>
+</form>
+
 <p>
     @Html.ActionLink("Create New", "Create", "User")
 </p>
@@ -37,3 +42,4 @@
 }
 
 </table>
+

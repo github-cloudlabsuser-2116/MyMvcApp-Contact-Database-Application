@@ -6,14 +6,13 @@ namespace MyMvcApp.Controllers;
 
 public class UserController : Controller
 {
-    public static readonly List<User> userlist = new List<User>();
+    public static List<User> userlist = new List<User>();
 
         // GET: User
-        public ActionResult Index()
-        {
-            // Implement the Index method here
-                return View(userlist);
-}
+    public ActionResult Index(){
+        // Implement the Index method here
+        return View(userlist);
+    }
         // GET: User/Details/5
         public ActionResult Details(int id)
         {
@@ -109,4 +108,11 @@ public ActionResult Edit(int id, User user)
             userlist.Remove(user);
             return RedirectToAction("Index");
         }
+
+       public IActionResult Search(string query)
+    {
+        var results = userlist.Where(u => u.Name.Contains(query, StringComparison.OrdinalIgnoreCase) || 
+                                          u.Email.Contains(query, StringComparison.OrdinalIgnoreCase)).ToList();
+        return View("Index", results);
+    }
 }
